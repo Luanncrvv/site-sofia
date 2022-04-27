@@ -89,6 +89,7 @@ body {
 .conteudo-principal-escrito-botao:hover {
   background-color: rgba(236, 214, 196, 0.53);
   transform: scale(1.1);
+  cursor:pointer;
 }
 
 .conteudo-principal-imagem {
@@ -96,6 +97,10 @@ body {
   position: relative;
   margin-top: 2%;
   border-radius: 15%;
+}
+
+.conteudo-principal-imagem-sobre {
+  margin-top: 30px;
 }
 
 .conteudo-secundario {
@@ -140,6 +145,7 @@ body {
 .conteudo-secundario-paragrafo-link-ref {
   font-family: 'Sarala', sans-serif;
   color: white;
+  text-decoration: underline;
 }
 
 .rodape {
